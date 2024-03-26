@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lesson1.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Lesson1-HTML-CSS</title>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div>
+                <a href="#" target="_blank">
+                    <img src="https://www.cyberlogitec.com.vn/_next/image?url=%2Flogo.png&w=256&q=75"
+                        alt="Cyberlogitec Vietnam">
+                </a>
+            </div>
+            <ul class="links">
+                <li><a href="#">Solutions <svg viewBox="64 64 896 896" focusable="false" data-icon="down" width="1em"
+                            height="1em" fill="currentColor" aria-hidden="true" style="font-size:0.75rem;">
+                            <path
+                                d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                            </path>
+                        </svg></a></li>
+                <li><a href="#">Services <svg viewBox="64 64 896 896" focusable="false" data-icon="down" width="1em"
+                            height="1em" fill="currentColor" aria-hidden="true" style="font-size:0.75rem;">
+                            <path
+                                d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                            </path>
+                        </svg></a></li>
+                <li><a href="#">Careers <svg viewBox="64 64 896 896" focusable="false" data-icon="down" width="1em"
+                            height="1em" fill="currentColor" aria-hidden="true" style="font-size:0.75rem;">
+                            <path
+                                d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                            </path>
+                        </svg></a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+            <div class="action_btn">
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars" style="color:#fff"></i>
+            </div>
+        </div>
+        <div class="dropdown">
+            <ul>
+                <li>
+                    <button type="button" class="btn_action">Contact Us </button>
+                </li>
+                <li><a href="#">About Us</a></li>
+                <li>
+                    <a href="#">Solutions</a>
+                    <svg viewBox="64 64 896 896" focusable="false" data-icon="down" width="1em" height="1em"
+                        fill="currentColor" aria-hidden="true" style="font-size:0.75rem;">
+                        <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                        </path>
+                    </svg>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                    <svg viewBox="64 64 896 896" focusable="false" data-icon="down" width="1em" height="1em"
+                        fill="currentColor" aria-hidden="true" style="font-size:0.75rem;">
+                        <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                        </path>
+                    </svg>
+                </li>
+                <li>
+                    <a href="#">Careers</a>
+                    <svg viewBox="64 64 896 896" focusable="false" data-icon="down" width="1em" height="1em"
+                        fill="currentColor" aria-hidden="true" style="font-size:0.75rem;">
+                        <path
+                            d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z">
+                        </path>
+                    </svg>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="flex-container">
+            <div class="col-1" style="flex-grow:1; padding: 0 0.5rem 32px;">
+                <iframe style="width: 100%;" height="315"
+                    src="https://www.youtube.com/embed/Nuy-vXGHGkA?si=XO0sVzNf-2PYzzto" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="col-1" style="flex-grow:1; padding: 0 0.5rem;">
+                <h1 style="text-align:center; padding-bottom:1.25rem"><span style="color:#03204c">Container</span>
+                    <br><span style="display:block;color:#3bc4e2">Shipping
+                        Business</span>
+                </h1>
+                <p>Commodo eiusmod sint occaecat ut. Anim do ea duis ullamco consectetur eiusmod velit esse. Amet mollit
+                    consequat sit laboris fugiat anim do. Cillum tempor labore amet magna cillum.</p>
+
+            </div>
+
+        </div>
+        <div class="flex-container" style="margin:2.5rem 0.5rem;gap:25px">
+            <div class="col-1" style="flex-grow:1">
+                <h3><span style="color:#03204c">Easy to use</span></h3>
+                <p>Commodo eiusmod sint occaecat ut. Anim do ea duis ullamco consectetur eiusmod velit esse. Amet mollit
+                    consequat sit laboris fugiat anim do. Cillum tempor labore amet magna cillum.</p>
+            </div>
+            <div class="col-1" style="flex-grow:1">
+                <h3><span style="color:#03204c">Integrate with BI tools</span></h3>
+                <p>Commodo eiusmod sint occaecat ut. Anim do ea duis ullamco consectetur eiusmod velit esse. Amet mollit
+                    consequat sit laboris fugiat anim do. Cillum tempor labore amet magna cillum.</p>
+            </div>
+            <div class="col-1" style="flex-grow:1">
+                <h3><span style="color:#03204c">Yield Management</span></h3>
+                <p>Commodo eiusmod sint occaecat ut. Anim do ea duis ullamco consectetur eiusmod velit esse. Amet mollit
+                    consequat sit laboris fugiat anim do. Cillum tempor labore amet magna cillum.</p>
+            </div>
+            <div class="col-1" style="flex-grow:1">
+                <h3><span style="color:#03204c">Exception Management</span></h3>
+                <p>Commodo eiusmod sint occaecat ut. Anim do ea duis ullamco consectetur eiusmod velit esse. Amet mollit
+                    consequat sit laboris fugiat anim do. Cillum tempor labore amet magna cillum.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle_btn')
+        const dropDownMenu = document.querySelector('.dropdown')
+
+        toggleBtn.onclick = function () {
+            toggleBtn.classList.toggle('toggle_rotate')
+            dropDownMenu.classList.toggle('open')
+        }
+    </script>
+
+</body>
+
+</html>
