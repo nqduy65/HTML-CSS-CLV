@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* I have a comment here */
-
+    /* I have another comment here in luat-branch */
 }
 
 body {
@@ -15,7 +14,6 @@ body {
 
 li {
     list-style: none;
-    /* add a comment here */
 }
 
 a {
